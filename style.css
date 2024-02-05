@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+nav{
+    height: 110px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    box-shadow: 0px 1px 4px rgb(113, 105, 105);
+}
+
+.paragraph{
+    text-align: center;
+    font-family:  'Playfair Display', serif;
+    
+}
+.Med{
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.first > img {
+    margin: 0px ;
+    height: 45px;
+    width: 95px;
+    /* padding-top: 10px; */
+
+}
+.list{
+    margin-left: 20px;
+    display: flex;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    font-size: 30px;
+    padding-right: 6cm;
+    
+}
+
+.end{
+    width: 20%;
+    padding-left: 10cm;
+}
+.img {
+    height: 20px;
+    width: 20px;
+    
+    
+}
+
+i {
+    font-size: 20px;
+    margin: 4px;
+    
+}
+.center{
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+input{
+    height: 0.9cm;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20;
+
+}
+.image_round{
+    height: 150px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+    gap: 0.5cm;
+    display: flex;
+    text-align: center;
+
+
+}
+.round> img {
+    
+    height: 150px;
+    width: 150px; 
+    margin: 0 auto;
+    border-radius: 50%;  
+    
+}
+.round>img:hover{
+    box-shadow: 3px 3px 3px 4px gray
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box-0{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+}
+.box-1{
+    height: 220px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.box-1:hover{
+    box-shadow: 0px 1px 4px rgb(113, 105, 105);
+}
+.box-1 > img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.box-1 > span{
+    margin-top: 5px;
+}
+
+
+.box{
+    width: 1100px;
+    height: 320px;
+    display: flex;
+    margin: 0 auto;
+}
+.boxs > img{
+   width: 200px;
+   height: 190px;
+   border-radius: 10px;
+   padding: 2px 4px 2px 4px;
+   display: flex;
+}
+.boxs{
+    width: 80%;
+    height: 360px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 10px;
+
+}
+.boxs:hover{
+    box-shadow: 0px 1px 4px rgb(113, 105, 105);
+}
+
+.popular-Des{
+    margin: 0 auto;
+    border: 0px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    display: block;
+    
+}
+.Rupey{
+    font-size: 20px;
+    color: green;
+}
+.Rupes{
+    color: red;
+}
+.shop-gift{
+   background-color: aquamarine;
+   height: 300px;
+   width: 850px;
+   margin: 0 auto;
+    
+}
+
+.shop-gift-1 > img{
+    height: 12px;
+    width: 24px;
+}
+.shop-gift-2{
+    font-size: 20px;
+    justify-content: center;
+    
+}
+.our{
+    position: relative;
+    text-align: center;
+}
+.parent{
+    height: 230px;
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    gap: 0.5cm;
+}
+
+.child{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 241, 241);
+    text-align: center;
+    font-size: large;
+    font-family: 'Playfair Display', serif;
+
+}
+.child > img{
+    height: 160px;
+    width: 190px;
+    border-radius: 5px;
+}
+.child:hover{
+    box-shadow: 3px 3px 3px 3px rgb(113, 105, 105);
+}
+.parent-1{
+    height: 250px;
+    width:100%;
+    background-color: rgb(255, 251, 216);
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+}
+.p1-chid{
+    height: 90%;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+}
+.top{
+   height: 80px;
+   width: 100%;
+   background-color: rgb(59, 103, 217);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.top > svg{
+    height: 30px;
+    width: 50px;
+    fill: white;
+
+}
+.top > span{
+    color: white;
+    
+}
+.bottom{
+    height: 320px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.medium{
+    height: 250px;
+    width: 40%;
+    background-color: rgb(24, 13, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medium > img{
+    height: 60px;
+    width: 70px;
+}
+.medium > span{
+
+   color: white;
+   padding-left: 20px;
+}
+.right{
+    height: 250px;
+    width: 60%;
+    background-color: rgb(49, 64, 175);
+    display: flex;
+}
+.right li{
+    color: white;
+}
+.right-1{
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
