@@ -83,6 +83,7 @@ input{
     gap: 0.5cm;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 
 
 }
@@ -92,6 +93,7 @@ input{
     width: 150px; 
     margin: 0 auto;
     border-radius: 50%;  
+    display: flex;
     
 }
 .round>img:hover{
@@ -105,11 +107,11 @@ h1{
     text-align: center;
 }
 .box-0{
-    width: 1100px;
+    height: 500px;
+    width: 1020px;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
-    gap: 10px;
     text-align: center;
     flex-wrap: wrap;
     
